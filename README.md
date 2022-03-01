@@ -8,8 +8,11 @@ You are to write two C programs: (1) a synchronous producer, and (2) a synchrono
 
 File Characteristics
 Naming	Contents	Created by	Accessed by
+
 filename.inpf	any ASCII character	user	producer
+
 filename.binf	(0 and 1) ASCII characters	producer	consumer
+
 filename.outf	any ASCII character	consumer	user
 
 
