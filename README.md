@@ -7,9 +7,13 @@ What to Do
 You are to write two C programs: (1) a synchronous producer, and (2) a synchronous consumer. Both programs will assume the use of ASCII codes with odd bit parity. The producer and consumer communication to be implemented makes use of a set of files. Details regarding such files are provided by the table below.
 
 File Characteristics
-Naming	Contents	Created by	Accessed by
+
+Naming	Contents	Created by	Accessed by-
+
 filename.inpf	any ASCII character	user	producer
+
 filename.binf	(0 and 1) ASCII characters	producer	consumer
+
 filename.outf	any ASCII character	consumer	user
 
 
