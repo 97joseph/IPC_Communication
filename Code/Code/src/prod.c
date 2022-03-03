@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
     strcat(outputFilename, ".output");
     replacement = argv[2][0];
 
-    if (demo_flag && argc == 6 && !strcmp(argv[4], "--buffersize") && atoi(argv[5]) > 0)
+    if (demo_flag && argc == 6 && !strcmp(argv[4], "--pipesize") && atoi(argv[5]) > 0)
         bufferSize = atoi(argv[5]);
 
     for (i = 0; i < 3; i++) {
